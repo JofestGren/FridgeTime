@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Kalam';
+    src: url("/fonts/Kalam-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Kalam-Bold';
+    src: url("/fonts/Kalam-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Kalam-Light';
+    src: url("/fonts/Kalam-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+html {
+	line-height: 1;
+	font-size: 18px;
+}
+
+body {
+  font-family: Kalam, Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #282C34;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+}
+
+ul,
+li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+p {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+	vertical-align: middle;
+}
+
+textarea {
+	resize: none;
+}
+
+section {
+	position: relative;
+	padding: 70px 0;
+}
+
+input,
+select,
+button {
+	outline: none;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+::-moz-selection {
+	background: #b3d4fc;
+	text-shadow: none;
+}
+
+::selection {
+	background: #b3d4fc;
+	text-shadow: none;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	*zoom: 1;
+}
